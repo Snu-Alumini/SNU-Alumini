@@ -1,2 +1,2 @@
 # SNU Alumni Webpage
-##CSE
+## Made by Department of Computer Science and Engineering
