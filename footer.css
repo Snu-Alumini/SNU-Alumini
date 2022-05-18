@@ -1,0 +1,66 @@
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  height: 250px;
+  padding: 60px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  margin-right: 25px;
+  flex: 1;
+}
+
+.middleSection {
+  flex: 1;
+  /* background-color: pink; */
+  padding: 10px 30px 15px 30px;
+}
+
+.middleSection ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.middleSection ul li {
+  margin-bottom: 6px;
+  /* font-weight: bold; */
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.middleSection ul li:last-child {
+  margin-bottom: 0px;
+}
+.headings {
+  border-bottom: 1px solid white;
+  padding: 0.2px;
+}
+
+.socialLinkTab {
+  flex: 1;
+  /* background-color: lightblue; */
+  padding: 10px 30px 15px 30px;
+}
+
+.socialLinkTab ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.socialLinkTab ul li {
+    margin-bottom: 6px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.socialLinkTab ul li:last-child {
+    margin-bottom: 0px;
+    
+}
