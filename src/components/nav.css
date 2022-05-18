@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(45deg, rgb(156, 14, 156), #eaca49);
+}
+.logo{
+    position:fixed;
+   top: -0.3rem;
+   float: left;
+  
+}
+.logo h1{
+    color: white;
+}
+.connect{
+    text-align: right;
+    font-weight: 1rem;
+}
+.connect h2{
+font-weight: 1rem;
+color: rgb(255, 255, 255);
+}
+@media (max-width: 450px) {
+    .logo{
+        width: 20%;
+    }
+    .logo h1{
+        font-size: small;
+    }
+    .connect{
+        width: 20%;
+        float: right;
+        
+      
+   
+    }
+    .connect h2{
+        font-size: small;
+    }
+    
+
+}
